@@ -16,3 +16,4 @@ Step by step guide to becoming a Docker developer
 
 - Volumenes y Redes
     - [Montar Bases de Datos](src/concepts/volumen-redes/mounting-databases.md)
+    - [Tipos de volúmenes](src/concepts/volumen-redes/types-of-volumes.md)

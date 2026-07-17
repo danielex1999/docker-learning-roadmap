@@ -243,9 +243,9 @@ docker container rm -f world-db
 Crear contenedor con volumen
 
 ```bash
-docker container run -d \
+docker container run \
   --name world-db \
-  -p 3306:3306 \
+  -dp 3306:3306 \
   --env MARIADB_USER=example-user \
   --env MARIADB_PASSWORD=user-password \
   --env MARIADB_ROOT_PASSWORD=root-password \

@@ -30,3 +30,7 @@ Step by step guide to becoming a Docker developer
     - [Correr, limpiar y otras consideraciones](src/concepts/docker-compose/run-clean-and-other-considerations.md)
     - [Limpiar el docker compose y conectar volumen externo](src/concepts/docker-compose/clean-docker-compose-and-connect-external-volume.md)
     - [Bind Volumes](src/concepts/docker-compose/bind-volumes.md)
+    - [Multi-container app - Base de datos](src/concepts/docker-compose/multi-container-app.md)
+    - [Variables de entorno](src/concepts/docker-compose/environment-variables.md)
+    - [Multi-container app - Visor de Base de datos](src/concepts/docker-compose/multi-container-app-database-viewer.md)
+    - [Multi-container app - Aplicación de NestJS](src/concepts/docker-compose/multi-container-app-nestjs.md)

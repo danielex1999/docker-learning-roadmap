@@ -27,25 +27,6 @@ Step by step guide to becoming a Docker developer
 
 - Docker Compose
     - [Multi Container Apps](src/concepts/docker-compose/multi-container-apps.md)
-
-
-    ```bash
-docker container run \
-  --name world-db \
-  -dp 3306:3306 \
-  --env MARIADB_USER=example-user \
-  --env MARIADB_PASSWORD=user-password \
-  --env MARIADB_ROOT_PASSWORD=root-password \
-  --env MARIADB_DATABASE=world-db \
-  --volume world-db:/var/lib/mysql \
-  --network world-app \
-  mariadb:jammy
-```
-
-docker container run \
---name phpmyadmin \
--d \
--e PMA_ARBITRARY=1 \
--p 8080:80 \
---network world-app \
-phpmyadmin:5.2.0-apache
+    - [Correr, limpiar y otras consideraciones](src/concepts/docker-compose/run-clean-and-other-considerations.md)
+    - [Limpiar el docker compose y conectar volumen externo](src/concepts/docker-compose/clean-docker-compose-and-connect-external-volume.md)
+    - [Bind Volumes](src/concepts/docker-compose/bind-volumes.md)

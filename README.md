@@ -34,3 +34,8 @@ Step by step guide to becoming a Docker developer
     - [Variables de entorno](src/concepts/docker-compose/environment-variables.md)
     - [Multi-container app - Visor de Base de datos](src/concepts/docker-compose/multi-container-app-database-viewer.md)
     - [Multi-container app - Aplicación de NestJS](src/concepts/docker-compose/multi-container-app-nestjs.md)
+
+
+<div align="center">
+<img src="src/img/tumblr_4dbb7ab219f9d7cc20423925205b23f6_0472dbbb_500.webp/" width="150px" alt="Docker" />
+</div>

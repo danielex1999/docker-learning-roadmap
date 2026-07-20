@@ -53,6 +53,10 @@ Step by step guide to becoming a Docker developer
 
 - Multi-State Build
     - [Multi-State Build](src/concepts/multi-state-build/multi-state-build.md)
+    - [Docker compose - Target State](src/concepts/multi-state-build/docker-compose-target-state.md)
+    - [Ejecutar partes específicas del Dockerfile](src/concepts/multi-state-build/run-specific-parts-of-dockerfile.md)
+    - [Probar el BindVolume desde el compose](src/concepts/multi-state-build/test-bindvolume-from-compose.md)
+    - [Generar production build](src/concepts/multi-state-build/generate-production-build.md)
 
 <br>
 <br>
